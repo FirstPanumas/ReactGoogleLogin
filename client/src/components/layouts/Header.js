@@ -10,7 +10,7 @@ export const Header = () => {
         <Navbar.Toggle />
         <Nav className="me-auto">
           <Nav.Link>
-            <Link to="/">Home</Link>
+            <Link to="/">Home 1</Link>
           </Nav.Link>
         </Nav>
         <Navbar.Collapse className="justify-content-end">
