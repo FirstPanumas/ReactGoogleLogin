@@ -1,4 +1,4 @@
-import { createSlice } from "@reduxjs/toolkit";
+import {createSlice} from "@reduxjs/toolkit";
 const initialState = {
   value: "userSlice",
   users: [],
@@ -22,5 +22,6 @@ export const userSlice = createSlice({
   },
 });
 
-export const { login, logout, incrementByAmount } = userSlice.actions;
+export const {login, logout, incrementByAmount} =
+  userSlice.actions;
 export default userSlice.reducer;
